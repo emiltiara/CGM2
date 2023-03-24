@@ -1,0 +1,9 @@
+metadata = {
+    startup-script = <<-EOF
+      sudo apt-get update -y
+      sudo apt-get upgrade -y
+      sudo apt -y install nginx
+      sudo nginx -v
+
+    EOF
+}
